@@ -1,0 +1,86 @@
+.homeContainer{
+margin:2%;
+color: #00334E;
+font-Size: 20px;
+font-Family: Roboto;
+font-style: oblique;
+}
+.filterSection{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+ .filterBTN{
+    font-Size: 20px;
+    font-Family: Roboto;
+    border-radius: 10px;
+    padding: 1%;
+    color: #00334E;
+ }
+
+ .twoColumn{
+    display: flex;
+    
+ }
+ .prgressBar-section{
+    flex:1;
+    width: 50%;
+    background-color: #E8E8E8;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+    
+ }
+ .legCom{
+    width: 20%;
+    margin-top: 3%;
+    font-weight: bold;
+ }
+ .tables-section{
+    flex: 3;
+    padding: 10px;
+    outline-style: none;
+ }
+ .taskTable-section{
+    width: 100%;
+    background-color:#E8E8E8;
+    border-radius: 20px;
+    padding: 2%;
+    font-size: 18px;
+ }
+ .titel{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    padding: 5%;
+
+ }
+ 
+ .taskList {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+   margin: 20px , 0;
+   
+   
+ }
+ 
+ .liContainer {
+   flex: 5;
+   display: inline;
+ }
+
+ .chipContainer{
+   flex: 2;
+   margin-right: 5px;
+   align-content: end;
+   flex-direction: row;
+  
+   
+ }
+ button{
+    margin: 1%;
+ }
+

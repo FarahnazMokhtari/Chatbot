@@ -1,0 +1,42 @@
+/* MainPage.css */
+.mymain-page-container {
+  position: relative;
+}
+
+.robot-icon-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: none;
+  border: none !important; 
+  cursor: pointer;
+  outline: none;
+}
+
+.fartext-block {
+  position: relative;
+  margin: 0px auto; /* Center the element horizontally with some top margin */
+  width: 80%;
+  max-width: 600px;
+  padding: 0px;
+  background-color: #f9f9f9;
+  border: 2px solid #dddddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555555;
+}
+
+.fartext-block p {
+  margin-bottom: 15px;
+}
+
+.fartext-block a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.fartext-block a:hover {
+  color: #0056b3;
+}

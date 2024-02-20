@@ -1,0 +1,12 @@
+.regAiRectangle{
+    width: 70%;
+    height: 50%;
+    border-radius: 20px;
+    border: 1px #00334E solid;
+}
+.uploadFile{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2px;
+}

@@ -1,0 +1,71 @@
+.widgetTable{
+    flex: 2;
+    padding: 20px;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    background-color:#E8E8E8;
+    border-radius: 20px;
+    padding: 2%;
+    margin-top: 1%;
+    font-Family: 'Roboto';
+    
+}
+
+.widgetTBLtitel{
+    font-size: 20px;
+    font-weight: 300px;
+    font-Family: 'Roboto';
+}
+
+.widgetTBL {
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.widgetTr {
+    text-align: left;
+    background-color: #D9D9D9;
+}
+
+.WidgetLgUser {
+    display: flex;
+    align-items: center;
+}
+
+.WidgetLgImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.WidgetLgDate, .WidgetLgAmount {
+    font-weight: 300;
+}
+
+.WidgetLgButton {
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px;
+}
+
+.WidgetTbButton.Low {
+    color: #054426;
+    background-color: #648f7b;
+    border: 0px;
+   
+}
+
+.WidgetTbButton.High {
+    color: rgb(56, 1, 1);
+    background-color: #e15d5d;
+    border: 0px;
+    
+}
+
+.WidgetTbButton.Medium {
+    color: #382701;
+    background-color: #cead66;
+    border: 0px;
+}

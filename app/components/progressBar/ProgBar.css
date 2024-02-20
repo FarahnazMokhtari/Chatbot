@@ -1,0 +1,54 @@
+/* ProgBar.css */
+
+progress {
+  /* Set default appearance for browsers that support the appearance property */
+  appearance: none;
+
+  /* Remove default styles in Firefox */
+  -moz-appearance: none;
+
+  /* Remove default styles in WebKit browsers */
+  -webkit-appearance: none;
+}
+
+
+progress::-webkit-progress-bar {
+  /* Set the background color of the progress bar container */
+  
+  background-color: #f0f0f0;
+}
+
+progress::-webkit-progress-value {
+  /* Set the gradient for WebKit browsers (Safari, Chrome) */
+  background-image: linear-gradient(to right,  #ff0000 5%, #ff8c00 38%, #00ff00 70%);
+  border-radius: 20px;
+  
+}
+
+progress::-moz-progress-bar {
+  /* Set the gradient for Firefox */
+  background-image: linear-gradient(to right,  #ff0000 5%, #ff8c00 38%, #00ff00 70%);
+  border-radius: 20px;
+}
+
+/* Fallback styles for other browsers */
+progress {
+  /* Set a solid background color if the gradient is not supported */
+  background-color: #f0f0f0;
+}
+.lables{
+  display: flex;
+  justify-content: left;
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+/* Additional styling for the text display */
+.pClass {
+  text-align: center;
+  margin-top: 8px;
+  font-weight: bold;
+  flex-direction: column;
+  font-size: small;
+  width: 100%;
+}

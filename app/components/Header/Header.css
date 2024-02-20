@@ -1,0 +1,215 @@
+.Header1 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  box-shadow: 0px 0px 4px #00334e;
+ 
+}
+
+.Rectangle {
+  width: 100%;
+  height: 100px;
+  left: 0;
+  top: 0;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px #00334e solid;
+}
+.Rectangle1 {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.Logo {
+  width: 169;
+  height: 29;
+  left: 60;
+  top: 74;
+  padding-left: 2%;
+  position: relative;
+  color: #00334e;
+  font-size: 5vh;
+  font-family: Cormorant Garamond;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.UserAndSearch{
+    display: flex;
+    flex-direction: row;
+  }
+
+.SearchBarContainer {
+  width: 30vw;
+  height: 4vh;
+  left: 2.09%;
+  top: 10%;
+  padding-left: 2%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10%; 
+  margin-top: 2.09%;
+  position: relative;
+  align-items: center;
+  border-radius: 20px;
+  padding: 8px;
+  border: 2px #00334e solid;
+}
+
+.SearchInput {
+  position: relative;
+  color: #aab2b6;
+  font-size: 16px; 
+  font-family: "Roboto";
+  font-weight: 400;
+  word-wrap: break-word;
+  flex: 1;
+  margin-right: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  max-width: -100px;
+  width: 100%;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.user-section {
+    display: flex;
+    flex-direction: column; /* Updated to display items in a column */
+    align-items: center;
+    margin-right: 20px; 
+   
+  }
+  
+  .user-icon {
+    font-size: 38px;
+    margin-bottom: 5px; /* Add margin to separate icon and label */
+  }
+  
+  .user-name {
+    font-size: 16px;
+  }
+  
+  .RegisterBar{
+    width: 100%;
+    height: 100%;
+    position: relative;
+   
+    
+  }
+
+  
+  .RectangleRegBar{
+    border-radius: 20px;
+    margin-top:  1%;
+    height: 7vh;
+    position: relative; 
+  }
+  .regBTN{
+    background-color: #00334E;
+    color: #E8E8E8;
+    font-Size: 20px;
+    font-Family: Roboto;
+    font-Weight: 500px;
+    word-Wrap: break-word;
+    margin-left: 7%;
+    width: 15vw;
+    height: 5vh;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .RegistrationOptionsContainer {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    display: flex; /* Changed to inline-block for better alignment */
+  }
+  
+  .RegistrationOptions {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+  }
+  
+  .RegistrationOptionsContainer .RegistrationOptions {
+    display: block;
+  }
+  
+  .RegistrationOptions li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    width: max-content;
+  }
+  
+  .RegistrationOptions li:last-child {
+    border-bottom: none;
+  }
+  
+  .RegistrationOptions li:hover {
+    background-color: #ddd;
+  }
+  .iconBTN{
+    font-size: large;
+    margin: 7px;
+    background-color: #E8E8E8;
+    outline: none;
+    border: 0px;
+    color: #00334E;
+  }
+  .nav-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    font-family: Roboto;
+    margin: 0 auto;
+
+  }
+
+  .nav-ul{
+    display: flex;
+    max-width: 100%;
+
+  }
+  .nav-ul> li{
+    
+    display: flex;
+    
+  }
+  .nav-link{
+    flex: 1;
+    color: #00334E;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 200ms linear;
+    text-decoration: none;
+    padding: 0.5rem 0.3rem;
+    width: fit-content;
+    flex-basis: auto;
+    margin-left: 2.5rem;
+  }
+  .nav-link:hover{
+    background-color:  #f1f1f1;
+    text-decoration: underline;
+  }
+  .modalDialogStyle{
+    width: 400px;
+    margin: 0%;
+    
+  }
